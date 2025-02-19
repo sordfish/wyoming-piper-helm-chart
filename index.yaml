@@ -3,6 +3,16 @@ entries:
   wyoming-piper:
   - apiVersion: v2
     appVersion: 1.5.0
+    created: "2025-02-19T02:00:34.675060792Z"
+    description: A Helm chart for Kubernetes
+    digest: 2a9c77e61690aa8176070ad4e10ff54607c5ba35ccbce62eefabe43e828a141a
+    name: wyoming-piper
+    type: application
+    urls:
+    - https://github.com/sordfish/wyoming-piper-helm-chart/releases/download/wyoming-piper-0.1.1/wyoming-piper-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.5.0
     created: "2025-02-19T01:37:54.306672315Z"
     description: A Helm chart for Kubernetes
     digest: ee1338e77e82e20529ce40d5429a09949207f94e78e5b50bb6995bd57449cd0b
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/sordfish/wyoming-piper-helm-chart/releases/download/wyoming-piper-0.1.0/wyoming-piper-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-19T01:37:54.306683306Z"
+generated: "2025-02-19T02:00:34.675069429Z"
