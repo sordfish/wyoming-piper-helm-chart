@@ -102,6 +102,15 @@ volumeMounts: []
 #   mountPath: "/etc/foo"
 #   readOnly: true
 
+persistance:
+  config:
+    enabled: false
+    size: 10Gi
+    storageClass: local-path
+    accessModes:
+      - ReadWriteOnce
+
+
 nodeSelector: {}
 
 tolerations: []
