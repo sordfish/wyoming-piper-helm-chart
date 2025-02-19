@@ -8,8 +8,8 @@ spec:
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
-      targetPort: http
+      targetPort: piper
       protocol: TCP
-      name: http
+      name: piper
   selector:
     {{- include "wyoming-piper.selectorLabels" . | nindent 4 }}
